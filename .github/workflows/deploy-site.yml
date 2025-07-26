@@ -28,5 +28,5 @@ jobs:
           SUI_KEYSTORE: ${{ secrets.SUI_KEYSTORE }}
           DIST: site
           SUI_NETWORK: testnet
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_GITHUB }}
 
